@@ -73,7 +73,7 @@ public class ReplyController {
         log.info("updateReply(id={}, dto={})", id, dto);
         
         int result = replyService.update(id, dto);
-        
+         
         return ResponseEntity.ok(result);
     }
     
